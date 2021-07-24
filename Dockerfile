@@ -1,7 +1,7 @@
 # A minimal Docker image with Node, Puppeteer and OpenSSH client
 # Primarily used for building and deploying Angular + Scully apps
 
-FROM node:12-alpine
+FROM node:14-alpine
 
 RUN apk add --no-cache \
       chromium \
